@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@300;400;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F2F2F2;
+    border-top: 5px solid #FBED21;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+main {
+    padding: 20px;
+    /* border: 1px solid black; */
+
+}
+
+.yellow {
+    display: inline;
+    background-color: #FBED21;
+
+}
+
+.black {
+    background-color: black;
+    color: #F2F2F2;
+    display: inline;
+}
+
+.red {
+    color: red;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#nav-logo {
+    font-family: 'Coiny', cursive;
+    font-size: 42pt;
+    margin-left: -20px;
+
+}
+
+nav>div>a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 24pt;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+h1 {
+    font-size: 48pt;
+    font-weight: 700;
+    padding: 0px;
+    margin: 0;
+}
+
+#h1-font {
+    font-family: 'Coiny', cursive;
+    font-size: 88pt;
+
+}
+
+
+h3 {
+    font-size: 20pt;
+    font-weight: 400;
+    /* display: inline; */
+}
+
+#h1-subtitle {
+    /* margin-top: -120px; */
+    font-weight: 400;
+}
+
+
+#presentacion {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+#presentation-letters {
+    /* margin-top: -70px; */
+    margin-right: 40px;
+    max-width: 700px;
+
+}
+
+#presentacion-text {
+    font-size: 24pt;
+    /* margin-top: -90px; */
+}
+
+#pres-img {
+    width: 50%;
+    margin-right: 40px;
+}
+
+#info-text {
+    display: flex;
+    margin: 25px;
+    justify-content: space-between;
+}
+
+.info-parag {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+
+}
+
+.info-title {
+    font-size: 26pt;
+    font-weight: 900;
+}
+
+.info-p {
+    font-size: 21pt;
+}
+
+span:not([uncolored]) {
+    background-color: #FBED21;
+}
+
+#servicios-container {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#service-text {
+    display: flex;
+    flex-direction: column;
+}
+
+#foto-servicio {
+    width: 45%;
+}
+
+#service-title {
+    font-size: 42pt;
+    font-weight: 900;
+}
+
+
+div>ol>li {
+    font-size: 24pt;
+    margin-bottom: 25px;
+}
+
+div>ol>li>b {
+
+    background-color: #FBED21;
+    font-weight: 700;
+    font-size: 25pt;
+}
+
+hr {
+    height: 1px;
+    background-color: black;
+}
+
+.contact-title {
+    font-weight: 700;
+    font-size: 51pt;
+    margin: 0;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+#contact-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+#contact-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+#env-cons {
+    font-weight: 700;
+    font-size: 33pt;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 255px;
+    cursor: pointer;
+}
+
+div>button,
+#reset-button {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 24pt;
+
+}
+
+#reset-button {
+    width: 200px;
+    cursor: pointer;
+}
+
+label {
+    font-weight: 700;
+    font-size: 20pt;
+    margin-top: 35px;
+}
+
+textarea,
+input {
+    border: 2px solid black;
+    width: 500px;
+    font-weight: 400;
+    font-size: 15pt;
+}
+
+textarea {
+    height: 150px;
+    margin-bottom: 35px;
+}
+
+input {
+    height: 50px;
+}
+
+aside {
+    margin-top: 125px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+aside>a>img {
+
+    width: 50%;
+}
+
+aside>p {
+    font-size: 25pt;
+    font-weight: 700;
+    color: #808080;
+    /* margin-top: 0; */
+}
+
+
+footer {
+    display: flex;
+    height: 95px;
+    margin-top: 125px;
+    background-color: #FBED21;
+    align-items: center;
+}
+
+footer>div {
+    font-family: 'Coiny', cursive;
+    font-size: 33pt;
+    margin-left: 55px;
+}
+
+footer>a {
+    text-decoration: none;
+    font-size: 21pt;
+    margin-left: 55px;
+    color: black;
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@700&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #F2F2F2;
+    border-top: 5px solid #FBED21;
+}
+.yellow{background-color: #FBED21; display: inline;}
+.black{background-color: black; color: #F2F2F2; display: inline;}
+main{
+    display: flex;
+    justify-content: space-between;
+
+}
+#presentation-letters{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#nav-logo{
+    font-family: 'Coiny', cursive;
+}
+#photo-aside-womans{
+    width:50% ;
+    
+}
